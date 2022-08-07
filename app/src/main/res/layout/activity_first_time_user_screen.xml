@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FirstTimeUserScreen"
+    android:background="@color/bg_color">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/bg"
+        android:scaleType="fitXY" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintFTULayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="310dp"
+                    android:layout_height="160dp"
+                    android:scaleType="fitXY"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginEnd="35dp"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/image4" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="35dp"
+                    android:src="@drawable/black_bar" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="35dp"
+                    android:fontFamily="@font/basic"
+                    android:text="Welcome to iThinkAlr Tour App"
+                    android:textColor="@color/strawberry_jam"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="35dp"
+                    android:fontFamily="@font/basic"
+                    android:text="Before you start planning, we would like you to fill in a Questionnaire - to better tailor your own preferences and experiences. "
+                    android:textColor="@color/strawberry_jam"
+                    android:textSize="18dp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="35dp"
+                    android:src="@drawable/black_bar" />
+
+                <LinearLayout
+                    android:id="@+id/linearControl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_proceed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/btn_color_190dp"
+                        android:text="PROCEED"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

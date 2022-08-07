@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".questionnaire.Question2Fragment"
+    android:background="@color/bg_color">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/bg"
+        android:scaleType="fitXY" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintQn2Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginEnd="35dp"
+                    android:fontFamily="@font/basic"
+                    android:text="QUESTIONNAIRE"
+                    android:textColor="@color/strawberry_jam"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="35dp"
+                    android:src="@drawable/black_bar" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="35dp"
+                    android:fontFamily="@font/basic"
+                    android:text="2 OF 5"
+                    android:textColor="@color/strawberry_jam"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="35dp"
+                    android:src="@drawable/black_bar" />
+
+                <LinearLayout
+                    android:id="@+id/linearStart"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="35dp"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/linearStart1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/tv_StartTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="Start Time *"
+                            android:textColor="@color/black"
+                            android:textSize="23dp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@id/show_startIcon"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/show_startIcon"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@mipmap/clock"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toEndOf="@id/show_startIcon"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <TextView
+                        android:id="@+id/startTimeText"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/custom_input"
+                        android:elevation="2dp"
+                        android:focusable="false"
+                        android:fontFamily="@font/basic"
+                        android:hint="START TIME"
+                        android:paddingStart="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingEnd="10dp"
+                        android:paddingBottom="10dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="18dp" />
+
+                    <!-- android:drawablePadding="15dp"-->
+                    <!-- android:inputType="date"-->
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearEnd"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="35dp"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/linearEnd1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/tv_EndTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/basic"
+                            android:text="End Time *"
+                            android:textColor="@color/black"
+                            android:textSize="23dp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@id/show_endIcon"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <Button
+                            android:id="@+id/show_endIcon"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@mipmap/clock"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toEndOf="@id/show_endIcon"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <TextView
+                        android:id="@+id/endTimeText"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/custom_input"
+                        android:elevation="2dp"
+                        android:focusable="false"
+                        android:fontFamily="@font/basic"
+                        android:hint="END TIME"
+                        android:paddingStart="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingEnd="10dp"
+                        android:paddingBottom="10dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="18dp" />
+
+                    <!-- android:drawablePadding="15dp"-->
+                    <!-- android:inputType="date"-->
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearControl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/qn2_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/btn_color_130dp"
+                        android:text="@string/back_label"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/qn2_next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/btn_color_130dp"
+                        android:text="@string/next_label"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.SelectOption"
+    android:background="@color/bg_color">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/bg"
+        android:scaleType="fitXY" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_signuplogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="65dp"
+                    android:fontFamily="@font/basic"
+                    android:text="@string/login_signup"
+                    android:textColor="@color/strawberry_jam"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center" />
+
+                <ImageView
+                    android:id="@+id/image_mainlogo"
+                    android:layout_width="310dp"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="50dp"
+                    android:scaleType="fitXY"
+                    android:layout_marginBottom="36dp"
+                    android:src="@mipmap/image4"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/tv_alrhaveaccount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/basic"
+                    android:text="@string/login_message"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+
+                <com.google.android.gms.common.SignInButton
+                    android:id="@+id/sign_in_button"
+                    android:layout_width="189dp"
+                    android:layout_height="53dp"
+                    android:layout_marginBottom="16dp"
+                    android:textSize="15dp"
+                    android:layout_gravity="center">
+                </com.google.android.gms.common.SignInButton>
+
+                <TextView
+                    android:id="@+id/tv_newtoapp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:fontFamily="@font/basic"
+                    android:text="@string/signup_message"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:id="@+id/btn_signup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_red_corner"
+                    android:text="@string/sign_up"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

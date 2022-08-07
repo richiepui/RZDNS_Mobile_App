@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ExploreFragment"
+    android:background="@color/bg_color">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/bg"
+        android:scaleType="fitXY"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintExploreLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp">
+
+            <RelativeLayout
+                android:id="@+id/scroller_explore_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/explore"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginEnd="35dp"
+                        android:fontFamily="@font/basic"
+                        android:text="@string/explore_caps"
+                        android:textAlignment="center"
+                        android:textColor="@color/strawberry_jam"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_foryou"
+                        android:layout_width="376dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/basic"
+                        android:text="For You"
+                        android:textColor="@color/strawberry_jam"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <HorizontalScrollView
+                        android:id="@+id/scroller_foryou"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp">>
+
+                        <LinearLayout
+                            android:id="@+id/uselesslinearparent_foryou"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:id="@+id/thumbnail_layout_foryou"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/agenda_rect"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/img1"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@null"
+                                    android:contentDescription="unable to load"
+                                    android:scaleType="fitXY"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/tv1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/basic"
+                                    android:text=""
+                                    android:textColor="@color/black"
+                                    android:textSize="17dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/thumbnail_layout_foryou2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/agenda_rect"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/img2"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@null"
+                                    android:contentDescription="jewel"
+                                    android:scaleType="fitXY"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/tv2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+
+                                    android:fontFamily="@font/basic"
+                                    android:text=""
+                                    android:textColor="@color/black"
+                                    android:textSize="17dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/thumbnail_layout_foryou3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/agenda_rect"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/img3"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@null"
+                                    android:contentDescription="uss"
+                                    android:scaleType="fitXY"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/tv3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/basic"
+                                    android:text=""
+                                    android:textColor="@color/black"
+                                    android:textSize="17dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/thumbnail_layout_foryou4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/viewmore1"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:layout_margin="10dp"
+                                    android:background="@null"
+                                    android:contentDescription="view more"
+                                    android:text="View More"
+                                    android:textColor="@color/strawberry_jam"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:id="@+id/tv_pop"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/basic"
+                        android:text="Most Popular"
+                        android:textColor="@color/strawberry_jam"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <HorizontalScrollView
+                        android:id="@+id/scroller_pop"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp">>
+
+                        <LinearLayout
+                            android:id="@+id/uselesslinearparent_pop"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:id="@+id/thumbnail_layout_pop"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/agenda_rect"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/img7"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@null"
+                                    android:contentDescription="cloud"
+                                    android:scaleType="fitXY"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/tv7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/basic"
+                                    android:text=""
+                                    android:textColor="@color/black"
+                                    android:textSize="17dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/thumbnail_layout_pop2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/agenda_rect"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/img8"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@null"
+                                    android:contentDescription="jewel"
+                                    android:scaleType="fitXY"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/tv8"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/basic"
+                                    android:text=""
+                                    android:textColor="@color/black"
+                                    android:textSize="17dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/thumbnail_layout_pop3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/agenda_rect"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/img9"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@null"
+                                    android:contentDescription="uss"
+                                    android:scaleType="fitXY"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/tv9"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/basic"
+                                    android:text=""
+                                    android:textColor="@color/black"
+                                    android:textSize="17dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/thumbnail_layout_pop4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/viewmore3"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:layout_margin="10dp"
+                                    android:background="@null"
+                                    android:contentDescription="view more"
+                                    android:text="View More"
+                                    android:textColor="@color/strawberry_jam"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:id="@+id/tv_nearby"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/basic"
+                        android:text="Nearby You"
+                        android:textColor="@color/strawberry_jam"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <HorizontalScrollView
+                        android:id="@+id/scroller_nearbyyou"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp">
+
+                        <LinearLayout
+                            android:id="@+id/uselesslinearparent_nearby"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:id="@+id/thumbnail_layout_nearby"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/agenda_rect"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/img4"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@null"
+                                    android:contentDescription="cloud"
+                                    android:scaleType="fitXY"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/tv4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/basic"
+                                    android:text=""
+                                    android:textColor="@color/black"
+                                    android:textSize="17dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/thumbnail_layout_nearby2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/agenda_rect"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/img5"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@null"
+                                    android:contentDescription="jewel"
+                                    android:scaleType="fitXY"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/tv5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/basic"
+                                    android:text=""
+                                    android:textColor="@color/black"
+                                    android:textSize="17dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/thumbnail_layout_nearby3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/agenda_rect"
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/img6"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:background="@null"
+                                    android:contentDescription="uss"
+                                    android:scaleType="fitXY"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/tv6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:fontFamily="@font/basic"
+                                    android:text=""
+                                    android:textColor="@color/black"
+                                    android:textSize="17dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/thumbnail_layout_nearby4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/viewmore2"
+                                    android:layout_width="160dp"
+                                    android:layout_height="160dp"
+                                    android:layout_margin="10dp"
+                                    android:background="@null"
+                                    android:contentDescription="view more"
+                                    android:text="View More"
+                                    android:textColor="@color/strawberry_jam"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

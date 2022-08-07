@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".questionnaire.Question4Fragment"
+    android:background="@color/bg_color">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/bg"
+        android:scaleType="fitXY" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintQn4Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginEnd="35dp"
+                    android:fontFamily="@font/basic"
+                    android:text="QUESTIONNAIRE"
+                    android:textColor="@color/strawberry_jam"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="35dp"
+                    android:src="@drawable/black_bar" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="35dp"
+                    android:fontFamily="@font/basic"
+                    android:text="4 OF 5"
+                    android:textColor="@color/strawberry_jam"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="35dp"
+                    android:src="@drawable/black_bar" />
+
+                <LinearLayout
+                    android:id="@+id/linearAdult"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="35dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_NoAdult"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/basic"
+                        android:text="Number of Adults *"
+                        android:textColor="@color/black"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/linearTVadult"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <ImageButton
+                            android:id="@+id/btn_descreaseAdultNo"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@color/transparent"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/arrow_decrease" />
+
+                        <TextView
+                            android:id="@+id/tv_DataAdult"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/basic"
+                            android:text="1"
+                            android:textColor="@color/btn_color_red"
+                            android:textSize="30dp"
+                            android:textStyle="bold" />
+
+                        <ImageButton
+                            android:id="@+id/btn_increaseAdultNo"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@color/transparent"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/arrow_increase" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linearChild"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/basic"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_NoChild"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/basic"
+                        android:text="Number of Children *"
+                        android:textColor="@color/black"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/linearTVchild"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <ImageButton
+                            android:id="@+id/btn_descreaseChildNo"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@color/transparent"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/arrow_decrease" />
+
+                        <TextView
+                            android:id="@+id/tv_DataChild"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/basic"
+                            android:text="0"
+                            android:textColor="@color/btn_color_red"
+                            android:textSize="30dp"
+                            android:textStyle="bold" />
+
+                        <ImageButton
+                            android:id="@+id/btn_increaseChildNo"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@color/transparent"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/arrow_increase" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearControl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/qn4_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/btn_color_130dp"
+                        android:text="@string/back_label"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/qn4_next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/btn_color_130dp"
+                        android:text="@string/next_label"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

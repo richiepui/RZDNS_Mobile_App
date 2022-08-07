@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ForYouFragment"
+    android:background="@color/bg_color">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/bg"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintForYouLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/foryou"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="35dp"
+                android:fontFamily="@font/basic"
+                android:text="@string/foryou"
+                android:textAlignment="center"
+                android:textColor="@color/strawberry_jam"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutFy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/foryou">
+
+                <LinearLayout
+                    android:id="@+id/ly1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/agenda_rect"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/iv1"
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:maxWidth="200dp"
+                        android:scaleType="fitXY"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvheader1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Jewel Changi"
+                            android:textColor="#000000"
+                            android:textSize="17dp"
+                            android:fontFamily="@font/basic"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="7dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Rating: "
+                                android:textColor="#000000"
+                                android:textSize="18dp"
+                                android:fontFamily="@font/basic"/>
+
+                            <TextView
+                                android:id="@+id/desc1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Some description blah blah filling it up"
+                                android:textColor="#000000"
+                                android:fontFamily="@font/basic"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/location1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Location placeholder"
+                            android:textColor="#000000"
+                            android:fontFamily="@font/basic"
+                            android:textSize="18dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/agenda_rect"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/iv2"
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:maxWidth="200dp"
+                        android:scaleType="fitXY"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvheader2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Jewel Changi"
+                            android:textColor="#000000"
+                            android:textSize="17dp"
+                            android:fontFamily="@font/basic"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="7dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Rating: "
+                                android:textColor="#000000"
+                                android:textSize="18dp"
+                                android:fontFamily="@font/basic"/>
+
+                            <TextView
+                                android:id="@+id/desc2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Some description blah blah filling it up"
+                                android:textColor="#000000"
+                                android:fontFamily="@font/basic"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/location2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Location placeholder"
+                            android:textColor="#000000"
+                            android:fontFamily="@font/basic"
+                            android:textSize="18dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/agenda_rect"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/iv3"
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:maxWidth="200dp"
+                        android:scaleType="fitXY"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvheader3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Jewel Changi"
+                            android:textColor="#000000"
+                            android:textSize="17dp"
+                            android:fontFamily="@font/basic"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="7dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Rating: "
+                                android:textColor="#000000"
+                                android:textSize="18dp"
+                                android:fontFamily="@font/basic"/>
+
+                            <TextView
+                                android:id="@+id/desc3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Some description blah blah filling it up"
+                                android:textColor="#000000"
+                                android:fontFamily="@font/basic"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/location3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Location placeholder"
+                            android:textColor="#000000"
+                            android:fontFamily="@font/basic"
+                            android:textSize="18dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ly4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/agenda_rect"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/iv4"
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:maxWidth="200dp"
+                        android:scaleType="fitXY"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvheader4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Jewel Changi"
+                            android:textColor="#000000"
+                            android:textSize="17dp"
+                            android:fontFamily="@font/basic"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="7dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Rating: "
+                                android:textColor="#000000"
+                                android:textSize="18dp"
+                                android:fontFamily="@font/basic"/>
+
+                            <TextView
+                                android:id="@+id/desc4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Some description blah blah filling it up"
+                                android:textColor="#000000"
+                                android:fontFamily="@font/basic"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/location4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Location placeholder"
+                            android:textColor="#000000"
+                            android:fontFamily="@font/basic"
+                            android:textSize="18dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ly5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/agenda_rect"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/iv5"
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:maxWidth="200dp"
+                        android:scaleType="fitXY"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvheader5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Jewel Changi"
+                            android:textColor="#000000"
+                            android:textSize="17dp"
+                            android:fontFamily="@font/basic"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="7dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Rating: "
+                                android:textColor="#000000"
+                                android:textSize="18dp"
+                                android:fontFamily="@font/basic"/>
+
+                            <TextView
+                                android:id="@+id/desc5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Some description blah blah filling it up"
+                                android:textColor="#000000"
+                                android:fontFamily="@font/basic"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/location5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Location placeholder"
+                            android:textColor="#000000"
+                            android:fontFamily="@font/basic"
+                            android:textSize="18dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/agenda_rect"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/iv6"
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:maxWidth="200dp"
+                        android:scaleType="fitXY"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="350dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvheader6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Jewel Changi"
+                            android:textColor="#000000"
+                            android:textSize="17dp"
+                            android:fontFamily="@font/basic"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="7dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Rating: "
+                                android:textColor="#000000"
+                                android:textSize="18dp"
+                                android:fontFamily="@font/basic"/>
+
+                            <TextView
+                                android:id="@+id/desc6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Some description blah blah filling it up"
+                                android:textColor="#000000"
+                                android:fontFamily="@font/basic"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/location6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Location placeholder"
+                            android:textColor="#000000"
+                            android:fontFamily="@font/basic"
+                            android:textSize="18dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

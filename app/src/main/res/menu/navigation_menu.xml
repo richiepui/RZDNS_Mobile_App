@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/explore"
+            android:title="@string/explore" />
+
+        <item
+            android:id="@+id/question"
+            android:title="@string/questionnaire" />
+
+        <item
+            android:id="@+id/agenda"
+            android:title="@string/agenda" />
+
+        <item
+            android:id="@+id/itinerary"
+            android:title="@string/itinerary" />
+
+        <item
+            android:id="@+id/aboutus"
+            android:title="@string/about_us" />
+
+        <item
+            android:id="@+id/logout"
+            android:title="@string/log_out" />
+
+    </group>
+</menu>

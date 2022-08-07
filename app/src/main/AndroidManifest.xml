@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.ntu.ssp4_rzdns_outhink">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".activites.HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activites.SelectOption"
+            android:exported="true" />
+        <activity
+            android:name=".activites.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- android:theme="@style/Theme.SSP4_RZDNS_Outhink" -->
+        <!-- <activity -->
+        <!-- android:name=".NavBar" -->
+        <!-- android:exported="true" -->
+        <!-- android:label="@string/title_activity_nav_bar" -->
+        <!-- android:theme="@style/Theme.SSP4_RZDNS_Outhink.NoActionBar" /> -->
+        <!-- <fragment -->
+        <!-- android:name=".questionnaire.MainQuestionnaireFragment" -->
+        <!-- android:exported="true" /> &lt;!&ndash; .NoActionBar" &ndash;&gt; -->
+        <!-- <fragment -->
+        <!-- android:name=".FoodDetailsFragment" -->
+        <!-- android:exported="true" /> -->
+        <!-- <fragment -->
+        <!-- android:name=".AttractionDetailsFragment" -->
+        <!-- android:exported="true" /> -->
+        <!-- <fragment -->
+        <!-- android:name=".questionnaire.Question6Fragment" -->
+        <!-- android:exported="true" /> -->
+        <!-- <fragment -->
+        <!-- android:name=".questionnaire.Question5Fragment" -->
+        <!-- android:exported="true" /> -->
+        <!-- <fragment -->
+        <!-- android:name=".questionnaire.Question4Fragment" -->
+        <!-- android:exported="true" /> -->
+        <!-- <fragment -->
+        <!-- android:name=".questionnaire.Question3Fragment" -->
+        <!-- android:exported="true" /> -->
+        <!-- <fragment -->
+        <!-- android:name=".questionnaire.Question2Fragment" -->
+        <!-- android:exported="true" /> -->
+        <!-- <fragment -->
+        <!-- android:name=".questionnaire.Question1Fragment" -->
+        <!-- android:exported="true" /> -->
+        <!-- <fragment -->
+        <!-- android:name=".AboutUsFragment" -->
+        <!-- android:exported="true" /> -->
+        <!-- <fragment -->
+        <!-- android:name=".AgendaFragment" -->
+        <!-- android:exported="true" /> -->
+        <!-- <fragment -->
+        <!-- android:name=".ItineraryFragment" -->
+        <!-- android:exported="true" /> -->
+        <!-- <fragment -->
+        <!-- android:name=".ExploreFragment" -->
+        <!-- android:exported="true" /> -->
+        <activity
+            android:name=".questionnaire.SplashCompleteActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activites.MainActivity"
+            android:exported="true" />
+        <!-- android:theme="@style/AppTheme" -->
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

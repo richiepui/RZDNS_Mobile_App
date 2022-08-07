@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/StudioProjects/SSP4-RZDNS-Outhink/app/src/main/res/drawable/agenda_rect.xml" value="0.1" />
+        <entry key="..\:/Users/User/StudioProjects/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_agenda.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/User/StudioProjects/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_agenda_recyclerview.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/User/StudioProjects/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_attraction_details.xml" value="0.25" />
+        <entry key="..\:/Users/User/StudioProjects/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_explore.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/User/StudioProjects/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_explore2.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/User/StudioProjects/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_for_you_recyclerview.xml" value="0.25" />
+        <entry key="..\:/Users/User/StudioProjects/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_foryou.xml" value="0.21875" />
+        <entry key="..\:/Users/User/StudioProjects/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_most_popular_recyclerview.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/User/StudioProjects/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_mostpopular.xml" value="0.2966485507246377" />
+        <entry key="..\:/Users/User/StudioProjects/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_nearby_recyclerview.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/User/StudioProjects/SSP4-RZDNS-Outhink/app/src/main/res/layout/agenda_list.xml" value="0.33" />
+        <entry key="..\:/Users/User/StudioProjects/SSP4-RZDNS-Outhink/app/src/main/res/layout/for_you_list.xml" value="0.21875" />
+        <entry key="..\:/Users/User/StudioProjects/SSP4-RZDNS-Outhink/app/src/main/res/layout/most_popular_list.xml" value="0.33" />
+        <entry key="..\:/Users/User/StudioProjects/SSP4-RZDNS-Outhink/app/src/main/res/layout/nearby_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/StudioProjects/SSP4-RZDNS-Outhink/app/src/main/res/layout/view_more_card_view.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/User/StudioProjects/SSP4-RZDNS-Outhink/app/src/main/res/layout/view_more_cardview.xml" value="0.33" />
+        <entry key="..\:/Users/User/StudioProjects/SSP4-RZDNS-Outhink/app/src/main/res/layout/view_more_list.xml" value="0.29765013054830286" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink-master/app/src/main/res/drawable-v24/tab_selected.xml" value="0.183" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink-master/app/src/main/res/drawable/agenda_rect.xml" value="0.18" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink-master/app/src/main/res/drawable/background_round_padded.xml" value="0.1" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink-master/app/src/main/res/font/basic.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink-master/app/src/main/res/layout/activity_agenda_recyclerview.xml" value="0.1" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink-master/app/src/main/res/layout/agenda_list.xml" value="0.1" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/drawable-v24/ic_fa_flag_checkered.xml" value="0.2195" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/drawable-v24/ic_fa_person_walking.xml" value="0.2195" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/drawable-v24/tab_selected.xml" value="0.2105" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/drawable/agenda_rect.xml" value="0.1" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/drawable/background_round_padded.xml" value="0.1" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/drawable/black_bar_thin.xml" value="0.2195" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/drawable/custom_input.xml" value="0.2195" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/drawable/editcustom.xml" value="0.2195" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/drawable/ic_baseline_check_box_outline_blank_24.xml" value="0.2195" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_about_us.xml" value="0.1" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_agenda.xml" value="0.1" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_agenda_recyclerview.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_explore.xml" value="0.1" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_explore2.xml" value="0.1" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_for_you2.xml" value="0.25" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_for_you_recyclerview.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_main.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_most_popular2.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_most_popular_2.xml" value="0.1585144927536232" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_most_popular_recyclerview.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_mostpopular.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_nearby2.xml" value="0.1585144927536232" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_nearby_recyclerview.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_question2.xml" value="0.25" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_question3.xml" value="0.25" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/activity_question4.xml" value="0.25" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/agenda_list.xml" value="0.1" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/fragment_agenda2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/fragment_explore2.xml" value="0.1" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/fragment_explore_section_adapter.xml" value="0.1" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/fragment_for_you2.xml" value="0.1" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/fragment_most_popular2.xml" value="0.1" />
+        <entry key="..\:/Users/richi/OneDrive/Desktop/SSP4-RZDNS-Outhink/app/src/main/res/layout/fragment_nearby2.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/black_bar.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable-v24/btn_color_190dp.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable-v24/ic_map_pin.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable-v24/ic_taxi.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable/agenda_rect.xml" value="0.2037037037037037" />
+        <entry key="app/src/main/res/drawable/background_round_padded.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable/black_bar.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable/black_bar_thin.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable/black_border.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable/btn_color_130dp.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable/btn_color_190dp.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable/btn_red_corner.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable/custom_input.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable/ic_baseline_check_box_24.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable/ic_baseline_check_box_outline_blank_24.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable/image_checkbox.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable/menu_background_color_state.xml" value="0.3265625" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.3265625" />
+        <entry key="app/src/main/res/layout/activity_about_us.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_agenda_recyclerview.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_attraction_details.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_explore.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_first_time_user_screen.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_for_you_recyclerview.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_foryou.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_itinerary.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_main_questionnaire.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_most_popular_recyclerview.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_mostpopular.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_nearby.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_nearby_recyclerview.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_question1.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_question2.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_question3.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_question4.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_question5.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_select_option.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_splash_complete.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/agenda_list.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/nav_header.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/view_more_card_view.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/view_more_list.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/menu/navigation_menu.xml" value="0.3104166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

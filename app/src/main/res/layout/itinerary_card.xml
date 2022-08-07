@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="100dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginHorizontal="8dp"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    cardview:cardCornerRadius="15dp"
+    android:id="@+id/parent_layout_card_view">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/view_itinerary_step"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitXY"
+            android:padding="10dp"
+            android:src="@drawable/ic_taxi"/>
+
+        <GridLayout
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="@dimen/activity_itinerary_card_margin"
+            android:rowCount="2"
+            android:columnCount="1">
+
+            <TextView
+                android:id="@+id/view_itinerary_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:text="Travel to :"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:id="@+id/view_itinerary_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:text="0 mins"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+        </GridLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

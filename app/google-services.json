@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "544392533045",
+    "firebase_url": "https://outhink-e21f4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "outhink-e21f4",
+    "storage_bucket": "outhink-e21f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544392533045:android:44fccb6bafef8d53da4d7c",
+        "android_client_info": {
+          "package_name": "edu.ntu.ssp4_rzdns_outhink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544392533045-83vpldpg2gl7tbu9onm1licof4nh50oq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.ntu.ssp4_rzdns_outhink",
+            "certificate_hash": "eceb6c5f696a4044b953732117b225a188e75aff"
+          }
+        },
+        {
+          "client_id": "544392533045-jvqclpk65ueu5t32e439je40ni8vaf36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwpxq4vnncT72op9hqFnGzHlvCRtSoiKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544392533045-jvqclpk65ueu5t32e439je40ni8vaf36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
